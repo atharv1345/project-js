@@ -4,11 +4,55 @@
 // 1. const
 // 2. let
 // 3. var
+*-------------------------------------x------------------------------------*/
 
 // const - block scope
-// let - block scope
-// var - functional scope
+// const - constant value - cannot be changed
+// const - must be initialized at the time of declaration
+// const - cannot be redeclared
 
+*-------------------------------------x------------------------------------*/
+
+// let - block scope
+// let - can be changed
+// let - can be initialized at the time of declaration or later
+// let - cannot be redeclared
+*-------------------------------------x------------------------------------*/
+
+// var - functional scope
+// var - can be changed
+// var - can be initialized at the time of declaration or later
+// var - can be redeclared
+
+*-------------------------------------x------------------------------------*/
+
+// scope of variable
+// scope - accessibility of variable
+// types of scope
+// global scope - variable is accessible everywhere
+// local scope - variable is accessible within the function it is defined
+// module scope - variable is accessible within the module it is defined
+// lexical scope - variable is accessible within the block it is defined and its inner blocks
+// closure scope - variable is accessible within the function it is defined and its inner functions
+// function scope - variable is accessible within the function it is defined
+// script scope - variable is accessible within the script it is defined
+// namespace scope - variable is accessible within the namespace it is defined
+// file scope - variable is accessible within the file it is defined
+// package scope - variable is accessible within the package it is defined
+// project scope - variable is accessible within the project it is defined
+// application scope - variable is accessible within the application it is defined
+// session scope - variable is accessible within the session it is defined
+// request scope - variable is accessible within the request it is defined
+// thread scope - variable is accessible within the thread it is defined
+// process scope - variable is accessible within the process it is defined
+// instance scope - variable is accessible within the instance it is defined
+// class scope - variable is accessible within the class it is defined
+// object scope - variable is accessible within the object it is defined
+
+// types of local scope
+// global scope - variable is accessible everywhere
+// local scope - variable is accessible within the function it is defined
+// module scope - variable is accessible within the module it is defined
 // block scope - variable is only accessible within the block it is defined
 // functional scope - variable is only accessible within the function it is defined
 
@@ -45,3 +89,4 @@ perfer not to use var
 because of issues of scope and functional scope
 */
 console.table([account_Id,accountemail,accountpassword, accountcity,accountstate])
+
