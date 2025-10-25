@@ -32,22 +32,8 @@
 // global scope - variable is accessible everywhere
 // local scope - variable is accessible within the function it is defined
 // module scope - variable is accessible within the module it is defined
-// lexical scope - variable is accessible within the block it is defined and its inner blocks
-// closure scope - variable is accessible within the function it is defined and its inner functions
-// function scope - variable is accessible within the function it is defined
-// script scope - variable is accessible within the script it is defined
-// namespace scope - variable is accessible within the namespace it is defined
-// file scope - variable is accessible within the file it is defined
-// package scope - variable is accessible within the package it is defined
-// project scope - variable is accessible within the project it is defined
-// application scope - variable is accessible within the application it is defined
-// session scope - variable is accessible within the session it is defined
-// request scope - variable is accessible within the request it is defined
-// thread scope - variable is accessible within the thread it is defined
-// process scope - variable is accessible within the process it is defined
-// instance scope - variable is accessible within the instance it is defined
-// class scope - variable is accessible within the class it is defined
-// object scope - variable is accessible within the object it is defined
+// block scope - variable is only accessible within the block it is defined
+// functional scope - variable is only accessible within the function it is defined
 
 // types of local scope
 // global scope - variable is accessible everywhere
@@ -88,5 +74,4 @@ console.log(account_Id);
 perfer not to use var
 because of issues of scope and functional scope
 */
-console.table([account_Id,accountemail,accountpassword, accountcity,accountstate])
-
+console.table([account_Id,accountemail,accountpassword, accountcity,accountstate]);
